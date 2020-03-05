@@ -1,0 +1,262 @@
+/* header */
+.header {
+  height: 32px;
+  line-height: 31px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.header .header_left ul li {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+}
+.header .header_left ul li a {
+  float: left;
+  margin: 0 10px;
+}
+.header .header_right ul li {
+  float: left;
+  font-size: 12px;
+  color: #ccc;
+}
+.header .header_right ul li a {
+  float: left;
+  margin: 0 10px;
+}
+.header .header_right ul li:nth-child(-n + 2) a {
+  color: #000;
+}
+
+/* info */
+.info {
+  /* background-color: pink; */
+  position: relative;
+}
+.info .info_left {
+  width: 161px;
+  height: 40px;
+  background: url('./images/logo.huawei.png');
+  margin-top: 35px;
+}
+.info .info_left a {
+  position: absolute;
+  display: block;
+  padding: 3px 7px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  left: 166px;
+  top: 44px;
+}
+.info .info_right {
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* nav */
+.nav {
+  height: 40px;
+  line-height: 40px;
+  background-color: #ca151e;
+}
+.nav .container ul {
+  padding-left: 240px;
+}
+.nav ul li {
+  float: left;
+}
+.nav ul li a {
+  float: left;
+  color: #fff;
+  padding: 0 30px;
+}
+/* banner */
+.banner {
+  width: 100%;
+  height: 448px;
+  background: url('./images/bg.jpg');
+}
+.banner .prolist {
+  width: 240px;
+  height: 488px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  /* left: auto; */
+  top: 0;
+}
+.banner .prolist ul {
+  width: 100%;
+}
+.banner .prolist ul li {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+}
+.banner .prolist ul li a {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+}
+.banner .prolist ul li:first-child a {
+  font-size: 12px;
+}
+.big {
+  position: relative;
+}
+
+/* product */
+.product {
+  /* background-color: pink; */
+  margin-top: 20px;
+}
+.product .product_top ul li {
+  float: left;
+  width: 25%;
+}
+.product .product_top ul li a {
+  display: block;
+}
+.product .product_top ul li a img {
+  display: block;
+}
+.product .product_bottom {
+  margin-top: 10px;
+}
+.product .product_bottom ul li {
+  float: left;
+  width: 33%;
+  /* background-color: skyblue; */
+  border: 1px solid #ccc;
+  padding-left: 30px;
+  box-sizing: border-box;
+  background: #F8F8F8;
+}
+.product .product_bottom ul li:last-child {
+  float: right;
+}
+.product .product_bottom ul li:nth-child(2) {
+  margin-left: 6px;
+}
+.product .product_bottom ul li a {
+  display: block;
+}
+.product .product_bottom ul li a .left {
+  width: 150px;
+  margin-top: 30px;
+}
+.product .product_bottom ul li a .left h3 {
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.product .product_bottom ul li a .left .price {
+  line-height: 70px;
+  color: #ca151e;
+  font-size: 16px;
+}
+
+/* service */
+.service {
+  height: 80px;
+  background-color: #F8F8F8;
+  margin-top: 60px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.service .container ul li {
+  float: left;
+  width: 25%;
+  line-height: 78px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+.service .container ul li div {
+  width: 48px;
+  height: 48px;
+  margin-top: 15px;
+  float: left;
+  background-image: url('./images/icon.png');
+  margin-right: 20px;
+}
+.service .container ul li div.one {
+  background-position: -214px 0;
+}
+.service .container ul li div.two {
+  background-position: -269px 0;
+}
+.service .container ul li div.three {
+  background-position: -322px 0;
+}
+.service .container ul li div.four {
+  background-position: -374px 0;
+}
+
+.service .container ul li p {
+  float: left;
+  font-size: 12px;
+  color: #9a9488;
+}
+
+/* link */
+.link {
+  padding: 30px 0;
+  border-bottom: 1px solid #ccc;
+}
+.link dl {
+  float: left;
+  width: 20%;
+  text-align: center;
+  font-size: 12px;
+  color: #9a9488;
+}
+.link dl dt {
+  line-height: 50px;
+  color: #666666;
+  margin-left: -23px;
+
+}
+.link dl dt i {
+  display: inline-block;
+  width: 17px;
+  height: 15px;
+  background-image: url('./images/icon.png');
+  margin-right: 3px;
+}
+.link dl dt i.one {
+  background-position: 0px -53px;
+}
+.link dl dt i.two {
+  background-position: -25px -53px;
+}
+.link dl dt i.three {
+  background-position: -52px -53px;
+}
+.link dl dt i.four {
+  background-position: -77px -53px;
+}
+.link dl dt i.five {
+  background-position: 0px -77px;
+}
+
+.link dl dd {
+  line-height: 20px;
+}
+
+/* footer */
+.footer {
+  margin-top: 30px;
+}
+.footer .container {
+  font-size: 12px;
+  color: #666666;
+  text-align: center;
+}
+.footer .container p:nth-child(-n+3) {
+  color: #000;
+}
+.footer .container p:nth-last-child(-n+2) {
+  line-height: 30px;
+}
